@@ -1,0 +1,61 @@
+@media (max-width: 1024px)/* quando a largura maxima for de 1024px será aplicado esse regra*/ {
+    .cabecalho{
+        justify-content: center;
+        flex-direction: column;
+        padding: 50px 0;
+        gap: 15px;
+    }
+
+    .cabecalho .menu li a{
+        padding: 15px;
+    }
+
+    .home .informacoes{
+        padding: 30px;
+    }
+
+    .home .informacoes img{
+        max-width: 15%;
+    }
+
+    .home .informacoes .titulo{
+        font-size: 30px;
+    }
+
+    .compre-ja .cartao{
+        width: 70%;
+    }
+
+     #gta{
+        margin-left: 120px;
+        margin-top: -270px;
+    }
+}
+
+@media (max-width: 768px){
+    .compre-ja{
+        padding: 30px;
+    }
+
+    .compre-ja .cartao{
+        padding: 80px 20px;
+        width: 100%;
+    }
+
+    .compre-ja .informacoes h3{
+        font-size: 35px;
+    }
+
+    .compre-ja .informacoes .plataformas{
+        padding: 20px;
+    }
+
+    .btn-plataforma{
+        margin-top: 15px;
+        padding: 15px;
+    }
+
+    .btn-comprar{
+        width: 100%;
+    }
+}
